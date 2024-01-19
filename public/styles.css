@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Splash&display=swap');
+/* font-family: 'Splash', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@700&display=swap');
+/* font-family: 'IBM Plex Sans Hebrew', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+/* font-family: 'Rubik', sans-serif; */
+.nav {
+  width: 20%;
+}
+
+body {
+  background-color: aliceblue;
+  color: black;
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-collapse {
+    height: 5rem;
+    /* width: 10%; */
+    justify-content: end;
+    padding-right: 10%;
+  }
+}
+
+.navBar {
+  height: 8%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  position: fixed;
+}
+.navbar {
+  position: fixed;
+  width: -webkit-fill-available;
+}
+.nav-box {
+  justify-content: end;
+}
+.tag-line {
+  margin-top: 5%;
+  padding: 5%;
+}
+.img-div {
+  margin-left: 4%;
+}
+.head-text {
+  width: 6.5rem;
+}
+.head-line {
+  font-size: 300%;
+  /* font-family: 'Rubik', sans-serif; */
+  font-family: 'Rubik', sans-serif;
+  color: #050a30cb;
+  font-weight: 500;
+}
+.orang-spam {
+  color: #ff8c00;
+}
+.header {
+  height: 5rem;
+  background-color: black;
+  color: aliceblue;
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  justify-content: center;
+  /* border-radius: 2rem; */
+}
+.con {
+  margin-top: 2rem;
+  text-align: center;
+  justify-content: center;
+}
+.box {
+  border: 1px black solid;
+  /* margin: 2rem; */
+}
+.box-row {
+  /* align-items: center; */
+  justify-content: space-between;
+}
