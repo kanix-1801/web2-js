@@ -25,6 +25,8 @@ function App() {
       <h2>count value : {counter}</h2>
       <button onClick={addValue}> {counter} + value </button>
       <button onClick={removeValue}> {counter} - value </button>
+      <h2>tailwind </h2>
+      <h2 className="text-3xl font-bold underline">tailwind effect</h2>
     </>
   );
 }
