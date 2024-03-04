@@ -25,6 +25,11 @@ const valueInNumber = Number(score)
 // true => 1; false => 0
 // undefined => NaN
 
+// null --> stand alone value(empty value)
+//undefined --> value assign ni hue h
+//symbol --> unique
+//object
+
 
 // let isLoggedIn = 12 // --> true
 // let isLoggedIn = 1 // --> true
@@ -36,7 +41,8 @@ let valueInBool = Boolean(isLoggedIn)
 
 let someNumber = true
 // let someNumber =
-let stringNum = String(someNumber)
-console.log(typeof someNumber)
-console.log(typeof stringNum)
-console.log(stringNum)
+// let stringNum = String(someNumber)
+// console.log(typeof someNumber)
+// console.log(typeof null)
+// console.log(typeof stringNum)
+// console.log(stringNum)
