@@ -33,11 +33,13 @@ const valueInNumber = Number(score)
 
 // let isLoggedIn = 12 // --> true
 // let isLoggedIn = 1 // --> true
-let isLoggedIn = 0 // --> false
+// let isLoggedIn = 0 // --> false
+// let isLoggedIn = "" // --> false
+let isLoggedIn = "any" // --> true
 let valueInBool = Boolean(isLoggedIn)
 // console.log(typeof isLoggedIn)
 // console.log(typeof valueInBool)
-// console.log(valueInBool)
+console.log(valueInBool)
 
 let someNumber = true
 // let someNumber =
