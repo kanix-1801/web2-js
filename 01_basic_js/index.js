@@ -13,6 +13,9 @@
 // let score = "kanishk"
 // let score = NaN
 // let score = "33"
+
+// NaN -> "Not-a-Number." --> used to represent a computational result that doesn't yield a valid number.
+
 let score = null
 const valueInNumber = Number(score)
 // console.log(typeof score)
